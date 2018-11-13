@@ -37,4 +37,4 @@ client.on('message', message => {
     message.channel.send(`**avatar ... :** `);
   }
   });
-client.login("Mjk1OTA5MjI4MzI4MjU1NDg4.DszVpg.HZzYaKhtnTJ6g8gAInxR3Wr9hAQ")
+client.login('Mjk1OTA5MjI4MzI4MjU1NDg4.DszVpg.HZzYaKhtnTJ6g8gAInxR3Wr9hAQ')
