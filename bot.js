@@ -6,7 +6,7 @@ const client = new Discord.Client();
 
 
 
- const devs = ['295909228328255488' , '' , ''];
+ const devs = ['295909228328255488'];
 const adminprefix = "!";
 client.on('message', message => {
     var argresult = message.content.split(` `).slice(1).join(' ');
@@ -37,4 +37,4 @@ client.on('message', message => {
     message.channel.send(`**avatar ... :** `);
   }
   });
-client.login('Mjk1OTA5MjI4MzI4MjU1NDg4.DszVpg.HZzYaKhtnTJ6g8gAInxR3Wr9hAQ')
+client.login(process.env.BOT_TOKEN);
