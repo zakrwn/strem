@@ -3,7 +3,7 @@ const Discord = require('discord.js');
 const Util = require('discord.js');
 
 const adminprefix = "+";
-const devs = ['447399500835848192'];
+const devs = ['295909228328255488'];
 client.on('message', message => {
   var argresult = message.content.split(` `).slice(1).join(' ');
     if (!devs.includes(message.author.id)) return;
