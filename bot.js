@@ -43,7 +43,7 @@ client.on('message', async msg =>{
     msg.channel.send(embed);
     }
 });
-const adminprefix = "#";
+const adminprefix = "+";
 const devs = ['447399500835848192'];
 client.on('message', message => {
   var argresult = message.content.split(` `).slice(1).join(' ');
